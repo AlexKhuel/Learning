@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = UTF-8>
+    <title> Expense Splitter </title>
+</head>
+<body>
+    <h1> Expense Splitter</h1>
+    <p> This app helps you split expenses. Enter the names and amounts paid below </p>
+
+    <input id = "nameInput" type = "text" placeholder = "Enter Name">
+    <br> </br>
+
+    <input id = "amountInput" type = "text" placeholder = "Enter Amount Paid">
+    <br> </br>
+
+    <button onclick = "addPerson()">Add Person</button>
+    <button onclick = "finishInput()">Settle Up</button>
+
+    <h2>Current Entries:</h2>
+    <ul id="entries"></ul>
+
+    <h2>Results:</h2>
+    <ul id="results"></ul>
+    
+    <script src="OnlineSettleUp.js"></script>
+</body>
+</html>
+
